@@ -31,7 +31,7 @@ def tictactoe():
                 printBoard(theBoard)
                 print(player + ' wins!')
                 break
-        if turn == 9:
+        if turn == 8:
             print("It's a tie!")
             break
         if player == 'X':
@@ -43,3 +43,4 @@ def tictactoe():
 print('Welcome to tic tac toe!\nDo you wish to play as X or O?')
 
 tictactoe()
+

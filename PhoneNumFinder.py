@@ -1,11 +1,11 @@
 import re
 import pyperclip
 
-print("Hey! Let me find the phone numbers in your text for you.")
+print("Hey! Let me find the mobile numbers in your text for you.")
 
 Textblock = input()
 
-FindNums = re.compile(r'04\d\d\d\d\d\d\d\d')
+FindNums = re.compile(r'04\d\d\d\d\d\d\d\d'|)
 
 FoundNums = FindNums.search(Textblock)
 
