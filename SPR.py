@@ -5,7 +5,7 @@ while playing == True :
     wins = 0
     print(
         "Hey! Welcome to my Scissors, Paper, Rock game."
-        " How many times would you like to play?"
+        " How many rounds would you like to play?"
     )
     numGames = int(input())
     totalGames = numGames
@@ -33,7 +33,7 @@ while playing == True :
                 print(f"{vs}, You win!")
                 wins += 1
         elif play == "Rock":
-            if vs == "paper":
+            if vs == "Paper":
                 print(f"{vs}, You lose!")
             else:
                 print(f"{vs}, You win!")
